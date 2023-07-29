@@ -1,51 +1,174 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Your Name - Resume</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #F2F2F2; /* Light gray background color */
+        }
+        .page {
+            box-shadow: 0 0 5mm rgba(0, 0, 0, 0.1);
+            padding: 20mm;
+            background-color: #FFFFFF;
+        }
+        h1 {
+            font-size: 36px; /* You can adjust the font size as per your preference */
+            margin-bottom: 15px;
+        }
+        h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #333; /* Dark gray partition line */
+            padding-bottom: 5px; /* Add some spacing between heading and line */
+        }
+        header h1 {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 16px;
+        }
+        section {
+            margin-bottom: 15mm;
+        }
+        section h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #007BFF; /* Blue heading color */
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .education-year {
+            float: right; /* Move the year to the extreme right */
+            color: #666; /* Gray year color */
+        }
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 15px;
+        }
+        .contact-info p {
+            flex: 1;
+            margin-right: 20px;
+        }
+        section:last-child {
+            border-bottom: none;
+        }
+        .interests {
+            display: flex;
+        }
+        .interests ul {
+            flex: 1;
+        }
+    </style>
+    <title>VARUNTEJA CHUNDURI - Resume</title>
 </head>
 <body>
-    <div class="resume">
+    <div class="page">
         <header>
-            <h1>Your Name</h1>
-            <p>Email: your@email.com | Phone: (123) 456-7890 | LinkedIn: linkedin.com/in/yourprofile</p>
+            <h1>VARUNTEJA CHUNDURI</h1>
+            <p class="contact-info"><strong>Email:</strong> varuntejach2002@gmail.com | <strong>Phone:</strong> 7075051728 | <strong>LinkedIn:</strong> linkedin.com/in/varunteja-chunduri/ | <strong>GitHub:</strong> https://github.com/varunteja0</p>
         </header>
 
         <section>
-            <h2>Summary</h2>
+            <h2>CAREER OBJECTIVE</h2>
             <p>
-                A motivated and detail-oriented professional with a strong background in web development. 
-                Skilled in HTML, CSS, and JavaScript. Passionate about creating user-friendly and responsive web applications.
+                Seeking a dynamic organization for a challenging role, where I leverage expertise to drive impactful solutions. Committed to implementing innovative strategies and fostering a culture of continuous learning for organizational success and personal growth.
             </p>
         </section>
 
         <section>
-            <h2>Education</h2>
+            <h2>WORK EXPERIENCE</h2>
             <ul>
-                <li>Bachelor of Science in Computer Science, University Name, Graduation Year</li>
-                <!-- Add more education details if needed -->
+                <li>
+                    <strong>AIML Virtual Internship</strong>
+                    <br>
+                    <em>I successfully completed a virtual internship at AWS Academy, a subsidiary of Amazon, and received an internship certificate approved by AICTE</em>
+                    <br>
+                    <em>Duration: May 2023 - July 2023</em>
+                    <ul>
+                        <li>Gained valuable skills in AWS (Amazon Web Services) technologies and Artificial Intelligence and Machine Learning (AIML)</li>
+                        <li>Demonstrated strong self-discipline and time management in a remote learning environment</li>
+                    </ul>
+                </li>
             </ul>
         </section>
 
         <section>
-            <h2>Work Experience</h2>
+            <h2>EDUCATION</h2>
             <ul>
-                <li>Web Developer, Company Name - Start Date to End Date</li>
-                <!-- Add more work experience details if needed -->
+                <li>
+                    <strong>Bachelor of Technology in Computer Science</strong>
+                    <br>
+                    GITAM University - Hyderabad, TG
+                    <span class="education-year">2020 - present</span>
+                    <span style="color: #999;">&#x25B6; CGPA: 8.35 &nbsp;&nbsp;&nbsp;&nbsp; &#x25B6; Member of NSS Club</span>
+                </li>
+                <li>
+                    <strong>Intermediate in MPC</strong>
+                    <br>
+                    Narayan JR College - Hyderabad
+                    <span class="education-year">2018 - 2020</span>
+                    <span style="color: #999;">&#x25B6; CGPA: 8.8 &nbsp;</span>
+                </li>
+                <li>
+                    <strong>10th standard</strong>
+                    <br>
+                    GEETANJALI HIGH SCHOOL - Hyderabad, TG
+                    <span class="education-year">2018</span>
+                </li>
             </ul>
         </section>
 
         <section>
-            <h2>Skills</h2>
+            <h2>CERTIFICATIONS</h2>
             <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <!-- Add more skills details if needed -->
+                <li>&#8226; AIML Internship Certificate - AWS Academy</li>
+                <li>&#8226; OOPS with Python</li>
             </ul>
         </section>
 
-        <!-- Add more sections as required, such as Projects, Certifications, etc. -->
+        <section>
+            <h2>SKILLS</h2>
+            <div style="display: flex;">
+                <ul style="flex: 1;">
+                    <li>&#8226; Web Development</li>
+                    <li>&#8226; Artificial Intelligence</li>
+                    <li>&#8226; Machine Learning</li>
+                </ul>
+                <ul style="flex: 1;">
+                    <li>&#8226; Problem Solving</li>
+                    <li>&#8226; MySQL</li>
+                    <li>&#8226; Python</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>INTERESTS</h2>
+            <div class="interests">
+                <ul style="flex: 1;">
+                    <li>&#8226; Real Problem Solving</li>
+                    <li>&#8226; Stock Market Enthusiast</li>
+                    <li>&#8226; Sports</li>
+                </ul>
+                <ul style="flex: 1;">
+                    <li>&#8226; Reading Blogs</li>
+                    <li>&#8226; Esports</li>
+                </ul>
+            </div>
+        </section>
     </div>
 </body>
 </html>
